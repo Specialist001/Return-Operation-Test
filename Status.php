@@ -6,11 +6,7 @@ class Status
 {
     public static function getName(int $id): string
     {
-        $a = [
-            0 => 'Completed',
-            1 => 'Pending',
-            2 => 'Rejected',
-        ];
+        $a = ['Completed', 'Pending','Rejected'];
 
         return $a[$id];
     }
